@@ -64,7 +64,7 @@ async function getSongs(folder) {
 
     return songs;
   } catch (err) {
-    console.error(`❌ Error fetching songs for ${folder}:`, err);
+    console.error(` Error fetching songs for ${folder}:`, err);
     return [];
   }
 }
